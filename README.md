@@ -3,7 +3,7 @@ Docker镜像：wangyi2005/nghttpx-squid
 
 环境变量：
 
-1、SERVER_CRT（证书，用notepad++ 扩展模式替换 "\n" 为 "\\n" ,变成一行）
+1、SERVER_CRT（证书，用notepad++ 扩展模式替换换行符 为 \n ,变成一行）
 
 -----BEGIN CERTIFICATE-----\nMIICODCCAb2gAwIBAgIBBjAK.....-----END CERTIFICATE-----
 
