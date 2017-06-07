@@ -1,7 +1,7 @@
 FROM alpine:edge
 # squid 3.5.23
 # nghttp2 1.22
-RUN  apk add --no-cache --update squid nghttp2 git gcc libpcap-dev libc6-dev\
+RUN  apk add --no-cache --update squid nghttp2 git gcc libpcap-dev libc6-compat\
  &&  mkdir -m 777 /config 
  
 ENV SERVER_CRT=none SERVER_KEY=none
