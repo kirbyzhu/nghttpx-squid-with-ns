@@ -11,7 +11,7 @@ ADD nghttpx.conf   /config/nghttpx.conf
 
 RUN git clone https://github.com/snooda/net-speeder.git net-speeder
 WORKDIR net-speeder
-RUN sh build.sh
+RUN sh build.sh -DCOOKED
 
 RUN mv net_speeder /usr/local/bin/
 RUN chmod +x /usr/local/bin/net_speeder
